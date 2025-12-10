@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import { Button } from './components'
+import { Button, TextField } from './components'
 import './App.css'
 
 function App() {
@@ -22,9 +22,13 @@ function App() {
       </div>
       <h1 class="site-title">Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <Button 
+          onClick={() => setCount((count) => count + 1)}
+          variant="primary"
+          size="sm"
+        >
           count is {count}
-        </button>
+        </Button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
@@ -32,30 +36,27 @@ function App() {
         <div className="simpleForm">
           <form>
             <div>
-              <label htmlFor="fullName">Full Name:</label>
-              <input
-                type="text"
-                id="fullName"
+              <TextField
+                label="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
+                placeholder="Enter your full name"
               />
             </div>
             <div>
-              <label htmlFor="email">Email Address:</label>
-              <input
-                type="email"
-                id="email"
+              <TextField
+                label="Email Address"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email"
               />
             </div>
             <div>
-              <label htmlFor="dogBreed">Favorite Dog Breed:</label>
-              <input
-                type="text"
-                id="dogBreed"
+              <TextField
+                label="Favorite Dog Breed"
                 value={favoriteDogBreed}
                 onChange={(e) => setFavoriteDogBreed(e.target.value)}
+                placeholder="Enter your favorite dog breed"
               />
             </div>
           </form>
