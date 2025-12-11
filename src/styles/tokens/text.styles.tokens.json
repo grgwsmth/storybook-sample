@@ -1,0 +1,465 @@
+{
+  "ld": {
+    "semantic": {
+      "textStyle": {
+        "display": {
+          "large": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Decorative, large copy or data\n• One use per page typical\n• Regular weight by default",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.display.large.family}",
+                "fontSize": "{ld.semantic.font.display.large.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.display.large.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Decorative, large copy or data\n• One use per page typical\n• Regular weight by default",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.display.large.family}",
+                "fontSize": "{ld.semantic.font.display.large.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.display.large.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          },
+          "small": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Decorative, large copy or data\n• One use per page typical\n• Regular weight by default",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.display.small.family}",
+                "fontSize": "{ld.semantic.font.display.small.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.display.small.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Decorative, large copy or data\n• One use per page typical\n• Regular weight by default",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.display.small.family}",
+                "fontSize": "{ld.semantic.font.display.small.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.display.small.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          }
+        },
+        "heading": {
+          "large": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Leads or titles content\n• Bold weight by default\n• Sections the content on the page\n• Used (in code) to provide in-page nav for assistive technologies",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.heading.large.family}",
+                "fontSize": "{ld.semantic.font.heading.large.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.heading.large.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Leads or titles content\n• Bold weight by default\n• Sections the content on the page\n• Used (in code) to provide in-page nav for assistive technologies",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.heading.large.family}",
+                "fontSize": "{ld.semantic.font.heading.large.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.heading.large.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          },
+          "medium": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Leads or titles content\n• Bold weight by default\n• Sections the content on the page\n• Used (in code) to provide in-page nav for assistive technologies",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.heading.medium.family}",
+                "fontSize": "{ld.semantic.font.heading.medium.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.heading.medium.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Leads or titles content\n• Bold weight by default\n• Sections the content on the page\n• Used (in code) to provide in-page nav for assistive technologies",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.heading.medium.family}",
+                "fontSize": "{ld.semantic.font.heading.medium.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.heading.medium.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          },
+          "small": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Leads or titles content\n• Bold weight by default\n• Sections the content on the page\n• Used (in code) to provide in-page nav for assistive technologies",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.heading.small.family}",
+                "fontSize": "{ld.semantic.font.heading.small.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.heading.small.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Leads or titles content\n• Bold weight by default\n• Sections the content on the page\n• Used (in code) to provide in-page nav for assistive technologies",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.heading.small.family}",
+                "fontSize": "{ld.semantic.font.heading.small.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.heading.small.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          }
+        },
+        "body": {
+          "large": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Long-form body copy and microcopy\n• Regular in weight by default\n• Medium in size by default\n• Size up for more important copy\n• Size down for less important copy",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.large.family}",
+                "fontSize": "{ld.semantic.font.body.large.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.large.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "underline": {
+              "$type": "typography",
+              "$description": "Use for underline text-decoration.\n\n• Large link button",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.large.family}",
+                "fontSize": "{ld.semantic.font.body.large.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.large.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "underline"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Long-form body copy and microcopy\n• Regular in weight by default\n• Medium in size by default\n• Size up for more important copy\n• Size down for less important copy",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.large.family}",
+                "fontSize": "{ld.semantic.font.body.large.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.large.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          },
+          "medium": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Long-form body copy and microcopy\n• Regular in weight by default\n• Medium in size by default\n• Size up for more important copy\n• Size down for less important copy",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.medium.family}",
+                "fontSize": "{ld.semantic.font.body.medium.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.medium.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "underline": {
+              "$type": "typography",
+              "$description": "Use for underline text-decoration.\n\n• Medium link button",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.medium.family}",
+                "fontSize": "{ld.semantic.font.body.medium.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.medium.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "underline"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Long-form body copy and microcopy\n• Regular in weight by default\n• Medium in size by default\n• Size up for more important copy\n• Size down for less important copy",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.medium.family}",
+                "fontSize": "{ld.semantic.font.body.medium.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.medium.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          },
+          "small": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Long-form body copy and microcopy\n• Regular in weight by default\n• Medium in size by default\n• Size up for more important copy\n• Size down for less important copy",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.small.family}",
+                "fontSize": "{ld.semantic.font.body.small.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.small.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "underline": {
+              "$type": "typography",
+              "$description": "Use for underline text-decoration.\n\n• Alert action button\n• Breadcrumb item \n• Link button\n• Link\n• Snackbar action button",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.small.family}",
+                "fontSize": "{ld.semantic.font.body.small.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.small.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "underline"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Long-form body copy and microcopy\n• Regular in weight by default\n• Medium in size by default\n• Size up for more important copy\n• Size down for less important copy",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.body.small.family}",
+                "fontSize": "{ld.semantic.font.body.small.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.body.small.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          },
+          "mono": {
+            "large": {
+              "default": {
+                "$type": "typography",
+                "$description": "• Tabular data where figure alignment is important",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.mono.large.family}",
+                  "fontSize": "{ld.semantic.font.body.large.size}",
+                  "fontWeight": 400,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.large.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              },
+              "alt": {
+                "$type": "typography",
+                "$description": "• Tabular data where figure alignment is important",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.mono.large.family}",
+                  "fontSize": "{ld.semantic.font.body.large.size}",
+                  "fontWeight": 700,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.large.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              }
+            },
+            "medium": {
+              "default": {
+                "$type": "typography",
+                "$description": "• Default size\n• Tabular data where figure alignment is important",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.mono.medium.family}",
+                  "fontSize": "{ld.semantic.font.body.medium.size}",
+                  "fontWeight": 400,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.medium.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              },
+              "alt": {
+                "$type": "typography",
+                "$description": "• Tabular data where figure alignment is important",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.mono.medium.family}",
+                  "fontSize": "{ld.semantic.font.body.medium.size}",
+                  "fontWeight": 700,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.medium.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              }
+            },
+            "small": {
+              "default": {
+                "$type": "typography",
+                "$description": "• Tabular data where figure alignment is important",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.mono.small.family}",
+                  "fontSize": "{ld.semantic.font.body.small.size}",
+                  "fontWeight": 400,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.small.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              },
+              "alt": {
+                "$type": "typography",
+                "$description": "• Tabular data where figure alignment is important",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.mono.small.family}",
+                  "fontSize": "{ld.semantic.font.body.small.size}",
+                  "fontWeight": 700,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.small.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              }
+            }
+          }
+        },
+        "caption": {
+          "default": {
+            "$type": "typography",
+            "$description": "• Non-critical copy in compact spaces\n• Legalese and terms & conditions",
+            "$value": {
+              "fontFamily": "{ld.semantic.font.caption.family}",
+              "fontSize": "{ld.semantic.font.caption.size}",
+              "fontWeight": 400,
+              "letterSpacing": "0%",
+              "lineHeight": "{ld.semantic.font.caption.lineHeight}",
+              "textTransform": "none",
+              "textDecoration": "none"
+            }
+          },
+          "alt": {
+            "$type": "typography",
+            "$description": "• Non-critical copy in compact spaces\n• Legalese and terms & conditions",
+            "$value": {
+              "fontFamily": "{ld.semantic.font.caption.family}",
+              "fontSize": "{ld.semantic.font.caption.size}",
+              "fontWeight": 700,
+              "letterSpacing": "0%",
+              "lineHeight": "{ld.semantic.font.caption.lineHeight}",
+              "textTransform": "none",
+              "textDecoration": "none"
+            }
+          },
+          "mono": {
+            "default": {
+              "$type": "typography",
+              "$description": "• Tabular data where figure alignment is important",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.caption.mono.family}",
+                "fontSize": "{ld.semantic.font.caption.size}",
+                "fontWeight": 400,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.caption.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            },
+            "alt": {
+              "$type": "typography",
+              "$description": "• Tabular data where figure alignment is important",
+              "$value": {
+                "fontFamily": "{ld.semantic.font.caption.mono.family}",
+                "fontSize": "{ld.semantic.font.caption.size}",
+                "fontWeight": 700,
+                "letterSpacing": "0%",
+                "lineHeight": "{ld.semantic.font.caption.lineHeight}",
+                "textTransform": "none",
+                "textDecoration": "none"
+              }
+            }
+          }
+        },
+        "action": {
+          "body": {
+            "large": {
+              "default": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.large.family}",
+                  "fontSize": "{ld.semantic.font.body.large.size}",
+                  "fontWeight": 700,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.large.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              }
+            },
+            "medium": {
+              "default": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.medium.family}",
+                  "fontSize": "{ld.semantic.font.body.medium.size}",
+                  "fontWeight": 700,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.medium.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              }
+            },
+            "small": {
+              "default": {
+                "$type": "typography",
+                "$value": {
+                  "fontFamily": "{ld.semantic.font.body.small.family}",
+                  "fontSize": "{ld.semantic.font.body.small.size}",
+                  "fontWeight": 700,
+                  "letterSpacing": "0%",
+                  "lineHeight": "{ld.semantic.font.body.small.lineHeight}",
+                  "textTransform": "none",
+                  "textDecoration": "none"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

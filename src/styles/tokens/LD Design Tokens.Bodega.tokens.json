@@ -1,0 +1,3179 @@
+{
+  "ld": {
+    "primitive": {
+      "color": {
+        "black": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "white": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "transparentDark": {
+          "0": {
+            "$type": "color",
+            "$value": "#00000000"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#0000001a"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#00000033"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#0000004d"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#00000066"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#00000080"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#00000099"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#000000b2"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#000000cc"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#000000e5"
+          }
+        },
+        "transparentLight": {
+          "0": {
+            "$type": "color",
+            "$value": "#ffffff00"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#ffffff1a"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#ffffff33"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#ffffff4d"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#ffffff66"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#ffffff80"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#ffffff99"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#ffffffb2"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#ffffffcc"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#ffffffe5"
+          }
+        },
+        "blue": {
+          "5": {
+            "$type": "color",
+            "$value": "#f2f8fd"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#e6f1fc"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#cce3f8"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#b3d4f5"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#99c6f1"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#80b8ee"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#66aaea"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#4d9ce7"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#338de3"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#1a7fe0"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#0071dc"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#0066c6"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#005ab0"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#004f9a"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#004484"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#00396e"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#002d58"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#002242"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#00172c"
+          }
+        },
+        "cyan": {
+          "5": {
+            "$type": "color",
+            "$value": "#f0faff"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#e7f6fe"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#c9ebfd"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#90d6f9"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#79cdf6"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#4dbdf5"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#2eacea"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#189ee2"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#0092db"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#0083c7"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#0076b3"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#006599"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#005985"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#004a70"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#003857"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#002e42"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#001e2e"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#00101a"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#000c16"
+          }
+        },
+        "gray": {
+          "5": {
+            "$type": "color",
+            "$value": "#f8f8f8"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#f1f1f2"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#e3e4e5"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#d5d6d8"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#c7c8cb"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#babbbe"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#acadb0"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#9e9fa3"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#909196"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#828489"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#74767c"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#686a70"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#5d5e63"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#515357"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#46474a"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#3a3b3e"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#2e2f32"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#232325"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#171819"
+          }
+        },
+        "green": {
+          "5": {
+            "$type": "color",
+            "$value": "#f4faf3"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#e7f5e5"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#c4e5be"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#9cd493"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#57b647"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#39a927"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#36a723"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#39af28"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#37a824"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#33a223"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#2c981d"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#248f17"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#177e0e"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#16750e"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#227717"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#1e6714"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#005f00"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#195610"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#0f350a"
+          }
+        },
+        "orange": {
+          "5": {
+            "$type": "color",
+            "$value": "#fff7f2"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#fff0e6"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#fee0cc"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#fed1b3"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#fdc199"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#fdb280"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#fca266"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#fc934d"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#fb8333"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#fb741a"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#fa6400"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#e15300"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#c83c00"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#af2f00"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#962300"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#7d1900"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#641100"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#4b0a00"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#320500"
+          }
+        },
+        "pink": {
+          "5": {
+            "$type": "color",
+            "$value": "#fcf4f9"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#faeaf4"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#f5d5e9"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#efc0de"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#eaabd3"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#e596c8"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#e080bc"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#db6bb1"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#d556a6"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#d0419b"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#cb2c90"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#b72882"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#a22373"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#8e1f65"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#7a1a56"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#661648"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#51123a"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#3d0d2b"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#29091d"
+          }
+        },
+        "purple": {
+          "5": {
+            "$type": "color",
+            "$value": "#f7f5f9"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#efebf2"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#e0d6e5"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#d0c2d8"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#c1adcb"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#b199bf"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#a184b2"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#9270a5"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#825b98"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#73478b"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#63327e"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#592d71"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#4f2865"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#452358"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#3b1e4c"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#32193f"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#281432"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#1e0f26"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#140a19"
+          }
+        },
+        "red": {
+          "5": {
+            "$type": "color",
+            "$value": "#fdf4f4"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#fce8e9"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#f8d2d3"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#f5bbbd"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#f2a4a7"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#ef8e92"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#eb777c"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#e86066"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#e54950"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#e1333a"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#de1c24"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#c81920"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#b2161d"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#9b1419"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#851116"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#6f0e12"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#590b0e"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#43080b"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#2c0607"
+          }
+        },
+        "spark": {
+          "5": {
+            "$type": "color",
+            "$value": "#fffcf4"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#fef6de"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#fff3d2"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#ffedbc"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#ffe7a6"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#fbe298"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#ffda79"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#ffd463"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#ffce4d"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#ffc836"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#ffc220"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#e6a31d"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#cc851a"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#b36a16"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#995213"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#803d10"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#662b0d"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#4d1c0a"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#330f06"
+          }
+        },
+        "teal": {
+          "5": {
+            "$type": "color",
+            "$value": "#f0f9fb"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#e1f3f8"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#c3e7ef"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#a3dbe9"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#82cfe1"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#5dc3da"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#25b6d3"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#00a9c6"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#009ab7"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#008daa"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#00809e"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#00748f"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#00667f"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#005a6f"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#004d5f"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#00404f"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#00333f"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#00262f"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#001a1f"
+          }
+        },
+        "yellow": {
+          "5": {
+            "$type": "color",
+            "$value": "#fffef2"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#fffee6"
+          },
+          "20": {
+            "$type": "color",
+            "$value": "#fffccc"
+          },
+          "30": {
+            "$type": "color",
+            "$value": "#fffbb3"
+          },
+          "40": {
+            "$type": "color",
+            "$value": "#fffa99"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#fff980"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#fff766"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#fff64d"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#fff533"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#fff31a"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#fff200"
+          },
+          "110": {
+            "$type": "color",
+            "$value": "#e6cb00"
+          },
+          "120": {
+            "$type": "color",
+            "$value": "#cca700"
+          },
+          "130": {
+            "$type": "color",
+            "$value": "#b38600"
+          },
+          "140": {
+            "$type": "color",
+            "$value": "#996900"
+          },
+          "150": {
+            "$type": "color",
+            "$value": "#804f00"
+          },
+          "160": {
+            "$type": "color",
+            "$value": "#663800"
+          },
+          "170": {
+            "$type": "color",
+            "$value": "#4d2500"
+          },
+          "180": {
+            "$type": "color",
+            "$value": "#331500"
+          }
+        }
+      },
+      "font": {
+        "family": {
+          "sans": {
+            "$type": "string",
+            "$value": "Bogle"
+          },
+          "mono": {
+            "$type": "string",
+            "$value": "Bogle Mono"
+          }
+        }
+      }
+    },
+    "semantic": {
+      "color": {
+        "background": {
+          "$type": "color",
+          "$value": "{ld.primitive.color.white}",
+          "$description": "Use as the primary background for the UI.",
+          "subtle": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.5}",
+            "$description": "Use for a subtle, neutral background that accentuates overlaid surfaces."
+          },
+          "inverse": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.160}",
+            "$description": "Use for a background color that's the opposite lightness of `color.background`."
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{ld.primitive.color.gray.160}",
+          "$description": "Use for the border of generic elements.",
+          "subtle": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.130}",
+            "$description": "Use for the border of generic elements with less emphasis."
+          },
+          "subtlest": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.100}",
+            "$description": "Use for the border of generic elements with the least emphasis."
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.50}",
+            "$description": "Use for the border of elements in an disabled state."
+          },
+          "inverse": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for the border elements with opposite lightness of `color.border`."
+          },
+          "positive": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for the border of elements that communicate a favorable outcome."
+          },
+          "warning": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.spark.100}",
+            "$description": "Use for the border of elements that communicate a favorable outcome."
+          },
+          "negative": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.red.100}",
+            "$description": "Use for the border of elements that indicate danger or error state."
+          },
+          "info": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.blue.100}",
+            "$description": "Use for the border of elements that communicate information."
+          },
+          "brand": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for the border of elements that reinforce your brand."
+          },
+          "edited": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.purple.100}",
+            "$description": "Use for the border of elements in an edited state."
+          },
+          "activated": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for the border of elements in an activated state."
+          }
+        },
+        "surface": {
+          "hovered": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.10}",
+            "$description": "Use for elevated UIs such as cards, modals or dropdown menus with a hovered state."
+          },
+          "focused": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.10}",
+            "$description": "Use for elevated UI containers in a focused state."
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.20}",
+            "$description": "Use for elevated UIs such as cards, modals or dropdown menus with a pressed state."
+          },
+          "overlay": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for the background color of overlays such as Modal, Bottom Sheet and Panel."
+          },
+          "subtle": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.5}",
+            "$description": "Use for elevated UI containers with less emphasis.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.10}",
+              "$description": "Use for elevated UI containers with less emphasis with a hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.10}",
+              "$description": "Use for elevated UI containers with less emphasis with a focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.20}",
+              "$description": "Use for elevated UIs such as cards, modals or dropdown menus with a pressed state."
+            }
+          },
+          "activated": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.5}",
+            "$description": "Use for elevated UI containers in an activated state.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.10}",
+              "$description": "Use for elevated UI containers in an activated and hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.10}",
+              "$description": "Use for elevated UI containers in an activated and focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.20}",
+              "$description": "Use for elevated UI containers in an activated and pressed state."
+            }
+          },
+          "brand": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.10}",
+            "$description": "Use for elevated UI containers with a branded background color."
+          },
+          "$type": "color",
+          "$value": "{ld.primitive.color.white}",
+          "$description": "Use for elevated UIs such as cards, modals or dropdown menus."
+        },
+        "text": {
+          "subtle": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.130}",
+            "$description": "Use for navigation and form field labels."
+          },
+          "subtlest": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.100}",
+            "$description": "Use for secondary text such as supplementary helper text on an element."
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.50}",
+            "$description": "Use for text that indicates a disabled state."
+          },
+          "onFill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.160}",
+            "$description": "Use for text on generic elements.",
+            "positive": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for text on elements that communicate a favorable outcome.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.130}",
+                "$description": "Use for text on elements that communicate a favorable outcome but with less emphasis."
+              }
+            },
+            "negative": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for text on elements that indicate danger or error state.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.130}",
+                "$description": "Use for text on elements that indicate danger or error state but with less emphasis."
+              }
+            },
+            "warning": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for text on elements that emphasize caution.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.spark.160}",
+                "$description": "Use for text on elements that emphasize caution but with less emphasis."
+              }
+            },
+            "info": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for text on elements that communicate information.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.blue.130}",
+                "$description": "Use for text on elements that communicate information but with less emphasis."
+              }
+            },
+            "edited": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for text on elements in an edited state.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.purple.130}",
+                "$description": "Use for text on elements in an edited state but with less emphasis."
+              }
+            },
+            "inverse": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for text on elements with inverse fill."
+            },
+            "transparent": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for text on elements with transparent fill."
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.50}",
+              "$description": "Use for text on generic elements in disabled state."
+            },
+            "activated": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for text on elements in an activated state.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for text on elements in an activated state but with less emphasis.",
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.50}",
+                  "$description": "Use for text on elements in an activated state but with less emphasis in a disabled state."
+                }
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements in an activated state in a disabled state."
+              }
+            },
+            "brand": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for text on elements with branded fill.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.110}",
+                "$description": "Use for text on elements with subtle branded fill."
+              },
+              "bold": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with branded fill but with more emphasis."
+              }
+            },
+            "accent": {
+              "blue": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with a blue accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.blue.130}",
+                  "$description": "Use for text on elements with a blue accent but with less emphasis."
+                }
+              },
+              "yellow": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for text on elements with a yellow accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.yellow.160}",
+                  "$description": "Use for text on elements with a yellow accent but with less emphasis."
+                }
+              },
+              "spark": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for text on elements with a spark accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.spark.160}",
+                  "$description": "Use for text on elements with a spark accent but with less emphasis."
+                }
+              },
+              "green": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with a green accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.green.130}",
+                  "$description": "Use for text on elements with a green accent  but with less emphasis."
+                }
+              },
+              "red": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for  text on elements with a red accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.red.130}",
+                  "$description": "Use for text on elements with a red accent but with less emphasis."
+                }
+              },
+              "purple": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with a purple accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.purple.130}",
+                  "$description": "Use for text on elements with a purple accent but with less emphasis."
+                }
+              },
+              "gray": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with a gray accent",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.130}",
+                  "$description": "Use for text on elements with a gray accent but with less emphasis."
+                }
+              },
+              "orange": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for text on elements with a orange accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.orange.130}",
+                  "$description": "Use for text on elements with an orange accent  but with less emphasis."
+                }
+              },
+              "pink": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with a pink accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.pink.130}",
+                  "$description": "Use for text on elements with a pink accent but with less emphasis."
+                }
+              },
+              "cyan": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with a cyan accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.cyan.130}",
+                  "$description": "Use for text on elements with a cyan accent but with less emphasis."
+                }
+              },
+              "teal": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for text on elements with a teal accent.",
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.teal.130}",
+                  "$description": "Use for text on elements with a teal accent but with less emphasis."
+                }
+              }
+            }
+          },
+          "inverse": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for text that's the opposite lightness of `color.text`."
+          },
+          "positive": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for text that communicates a favorable outcome.",
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.130}",
+              "$description": "Use for text that communicates a favorable outcome on generic elements."
+            }
+          },
+          "warning": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.spark.100}",
+            "$description": "Use for text that emphasizes caution such as an alert message.",
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.spark.160}",
+              "$description": "Use for text that emphasizes caution on generic elements."
+            }
+          },
+          "negative": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.red.100}",
+            "$description": "Use for critical text that indicates an error such as input field error messaging.",
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.130}",
+              "$description": "Use for critical text that indicates an error on generic elements."
+            }
+          },
+          "info": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.blue.100}",
+            "$description": "Use for text that reinforces your info.",
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.blue.130}",
+              "$description": "Use for text that reinforces your info on generic elements."
+            }
+          },
+          "brand": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for text that reinforces your brand.",
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.110}",
+              "$description": "Use for text that reinforces your brand on generic elements."
+            }
+          },
+          "edited": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.purple.100}",
+            "$description": "Use for text that indicates an edited state.",
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.purple.130}",
+              "$description": "Use for text that indicates an edited state on generic elements."
+            }
+          },
+          "accent": {
+            "blue": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.blue.100}",
+              "$description": "Use for text with a blue accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.blue.130}",
+                "$description": "Use for text with a blue accent on generic elements."
+              }
+            },
+            "gray": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.100}",
+              "$description": "Use for text with a gray accent",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.130}",
+                "$description": "Use for text with a gray accent on generic elements."
+              }
+            },
+            "green": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.100}",
+              "$description": "Use for text with a green accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.130}",
+                "$description": "Use for text with a green accent on generic elements."
+              }
+            },
+            "red": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.100}",
+              "$description": "Use for text with a red accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.130}",
+                "$description": "Use for text with a red accent on generic elements."
+              }
+            },
+            "purple": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.purple.100}",
+              "$description": "Use for text with a purple accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.purple.130}",
+                "$description": "Use for text with a purple accent on generic elements."
+              }
+            },
+            "spark": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.spark.100}",
+              "$description": "Use for text with a spark accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.spark.160}",
+                "$description": "Use for text with a spark accent on generic elements."
+              }
+            },
+            "yellow": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.yellow.100}",
+              "$description": "Use for text with a yellow accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.yellow.160}",
+                "$description": "Use for text with a yellow accent on generic elements."
+              }
+            },
+            "pink": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.pink.100}",
+              "$description": "Use for text with a pink accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.pink.130}",
+                "$description": "Use for text with a pink accent on generic elements."
+              }
+            },
+            "orange": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.orange.100}",
+              "$description": "Use for text with an orange accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.orange.130}",
+                "$description": "Use for text with an orange accent on generic elements."
+              }
+            },
+            "cyan": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.cyan.100}",
+              "$description": "Use for text with a cyan accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.cyan.130}",
+                "$description": "Use for text with a cyan accent on generic elements."
+              }
+            },
+            "teal": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.teal.100}",
+              "$description": "Use for text with a teal accent.",
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.teal.130}",
+                "$description": "Use for text with a teal accent on generic elements."
+              }
+            }
+          },
+          "activated": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.110}",
+            "$description": "Use for text that indicates an activated state."
+          },
+          "$type": "color",
+          "$value": "{ld.primitive.color.gray.160}",
+          "$description": "Use for primary text, such as headings and body copy."
+        },
+        "fill": {
+          "$type": "color",
+          "$value": "{ld.primitive.color.white}",
+          "$description": "Use for the background of generic elements.",
+          "hovered": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.10}",
+            "$description": "Use for the background of generic elements in hovered state."
+          },
+          "focused": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.10}",
+            "$description": "Use for the background of generic elements in focused state."
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.20}",
+            "$description": "Use for the background of generic elements in pressed state."
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for the background of generic elements in disabled state."
+          },
+          "activated": {
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.110}",
+              "$description": "Use for the background of elements in an activated and hovered state."
+            },
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for the background of elements in an activated state.",
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.110}",
+              "$description": "Use for the background of elements in an activated and focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.130}",
+              "$description": "Use for the background of elements in an activated and pressed state."
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.50}",
+              "$description": "Use for the background of elements in an activated and disabled state."
+            },
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.5}",
+              "$description": "Use for the background of elements in an activated state but with less emphasis.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.10}",
+                "$description": "Use for the background of elements in an activated and hovered state but with less emphasis."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.10}",
+                "$description": "Use for the background of elements in an activated and focused state but with less emphasis."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.20}",
+                "$description": "Use for the background of elements in an activated and pressed state but with less emphasis."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.20}",
+                "$description": "Use for the background of elements in an activated and disabled state but with less emphasis."
+              }
+            }
+          },
+          "inverse": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.160}",
+            "$description": "Use for the background of elements with opposite lightness of `color.fill`."
+          },
+          "subtle": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.5}",
+            "$description": "Use for the background of generic elements with less emphasis."
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.transparentDark.0}",
+            "$description": "Use for the background of elements with transparent fill."
+          },
+          "brand": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for the background of elements that reinforce your brand.",
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.10}",
+              "$description": "Use for the background of elements that reinforce your brand, but with less emphasis."
+            },
+            "bold": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.160}",
+              "$description": "Use for the background of elements that reinforce your brand but with more emphasis."
+            }
+          },
+          "edited": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.purple.100}",
+            "$description": "Use for the background of elements in an edited state.",
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.purple.10}",
+              "$description": "Use for the background of elements in an edited state but with less emphasis."
+            }
+          },
+          "info": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.blue.100}",
+            "$description": "Use for the background of elements that communicate information.",
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.blue.10}",
+              "$description": "Use for the background of elements that communicate information, but with less emphasis."
+            }
+          },
+          "negative": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.red.100}",
+            "$description": "Use for the background of elements that indicate danger or error state.",
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.10}",
+              "$description": "Use for the background of elements that indicate danger or error state, but with less emphasis."
+            }
+          },
+          "positive": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for the background of elements that communicate a favorable outcome.",
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.10}",
+              "$description": "Use for the background of elements that communicate a favorable outcome but with less emphasis."
+            }
+          },
+          "warning": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.spark.100}",
+            "$description": "Use for the background of elements that emphasize caution.",
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.spark.10}",
+              "$description": "Use for the background of elements that emphasize caution but with less emphasis."
+            }
+          },
+          "accent": {
+            "blue": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.blue.100}",
+              "$description": "Use for the background of elements with a blue accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.blue.10}",
+                "$description": "Use for the background of elements with a blue accent  but with less emphasis."
+              }
+            },
+            "spark": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.spark.100}",
+              "$description": "Use for the background of elements with a spark accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.spark.10}",
+                "$description": "Use for the background of elements with a spark accent but with less emphasis."
+              }
+            },
+            "yellow": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.yellow.100}",
+              "$description": "Use for the background of elements with a yellow accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.yellow.10}",
+                "$description": "Use for the background of elements with a yellow accent but with less emphasis."
+              }
+            },
+            "green": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.100}",
+              "$description": "Use for the background of elements with a green accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.10}",
+                "$description": "Use for the background of elements with a green accent but with less emphasis."
+              }
+            },
+            "red": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.100}",
+              "$description": "Use for the background of elements with a red accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.10}",
+                "$description": "Use for the background of elements with a red accent but with less emphasis."
+              }
+            },
+            "purple": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.purple.100}",
+              "$description": "Use for the background of elements with a purple accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.purple.10}",
+                "$description": "Use for the background of elements with a purple accent but with less emphasis."
+              }
+            },
+            "gray": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.100}",
+              "$description": "Use for the background of elements with a gray accent",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.10}",
+                "$description": "Use for the background of elements with a gray accent but with less emphasis."
+              }
+            },
+            "orange": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.orange.70}",
+              "$description": "Use for the background of elements with a orange accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.orange.10}",
+                "$description": "Use for the background of elements with a orange accent but with less emphasis."
+              }
+            },
+            "pink": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.pink.100}",
+              "$description": "Use for the background of elements with a pink accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.pink.10}",
+                "$description": "Use for the background of elements with a pink accent but with less emphasis."
+              }
+            },
+            "cyan": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.cyan.100}",
+              "$description": "Use for the background of elements with a cyan accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.cyan.10}",
+                "$description": "Use for the background of elements with a cyan accent but with less emphasis."
+              }
+            },
+            "teal": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.teal.100}",
+              "$description": "Use for the background of elements with a teal accent.",
+              "subtle": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.teal.10}",
+                "$description": "Use for the background of elements with a blue accent  but with less emphasis."
+              }
+            }
+          }
+        },
+        "action": {
+          "fill": {
+            "primary": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.100}",
+              "$description": "Use for primary action components.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.110}",
+                "$description": "Use for primary action components in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.110}",
+                "$description": "Use for primary action components in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.130}",
+                "$description": "Use for primary action components in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for primary action components in disabled state."
+              }
+            },
+            "secondary": {
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.10}",
+                "$description": "Use for secondary action components in hovered state."
+              },
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for secondary action components.",
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.10}",
+                "$description": "Use for secondary action components in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.20}",
+                "$description": "Use for secondary action components in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for secondary action components in disabled state."
+              }
+            },
+            "tertiary": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for tertiary action components.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.10}",
+                "$description": "Use for tertiary action components in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.10}",
+                "$description": "Use for tertiary action components in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.20}",
+                "$description": "Use for tertiary action components in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for tertiary action components in disabled state."
+              }
+            },
+            "transparent": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.transparentDark.0}",
+              "$description": "Use for transparent action components such as Icon Button.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.10}",
+                "$description": "Use for transparent action components such as Icon Button in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.10}",
+                "$description": "Use for transparent action components such as Icon Button in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.20}",
+                "$description": "Use for transparent action components such as Icon Button in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.0}",
+                "$description": "Use for transparent action components such as Icon Button in disabled state."
+              }
+            },
+            "negative": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.100}",
+              "$description": "Use for action components with negative semantic meaning.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.110}",
+                "$description": "Use for action components with negative semantic meaning in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.110}",
+                "$description": "Use for action components with negative semantic meaning in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.130}",
+                "$description": "Use for action components with negative semantic meaning in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for action components with negative semantic meaning in disabled state."
+              }
+            }
+          },
+          "text": {
+            "onFill": {
+              "primary": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for primary action components.",
+                "hovered": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for primary action components in hovered state."
+                },
+                "focused": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for primary action components in focused state."
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for primary action components in pressed state."
+                },
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for primary action components in disabled state."
+                }
+              },
+              "secondary": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for secondary action components.",
+                "hovered": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for secondary action components in hovered state."
+                },
+                "focused": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for secondary action components in focused state."
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for secondary action components in pressed state."
+                },
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.50}",
+                  "$description": "Use for secondary action components in disabled state."
+                }
+              },
+              "tertiary": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for tertiary action components.",
+                "hovered": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for tertiary action components in hovered state."
+                },
+                "focused": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for tertiary action components in focused state."
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for tertiary action components in pressed state."
+                },
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.50}",
+                  "$description": "Use for tertiary action components in disabled state."
+                }
+              },
+              "negative": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for action components with negative semantic meaning.",
+                "hovered": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for action components with negative semantic meaning in hovered state."
+                },
+                "focused": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for action components with negative semantic meaning in focused state."
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for action components with negative semantic meaning in pressed state."
+                },
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for action components with negative semantic meaning in disabled state."
+                }
+              },
+              "transparent": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for transparent action components  such as Icon Button.",
+                "hovered": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for transparent action components such as Icon Button in hovered state."
+                },
+                "focused": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for transparent action components such as Icon Button in focused state."
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.160}",
+                  "$description": "Use for transparent action components such as Icon Button in pressed state."
+                },
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.50}",
+                  "$description": "Use for transparent action components such as Icon Button in disabled state."
+                }
+              }
+            }
+          },
+          "border": {
+            "secondary": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for secondary action components.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for secondary action components in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for secondary action components in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for secondary action components in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for secondary action components in disabled state."
+              }
+            },
+            "tertiary": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.50}",
+              "$description": "Use for tertiary action components.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for tertiary action components in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for tertiary action components in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for tertiary action components in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for tertiary action components in disabled state."
+              }
+            },
+            "transparent": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.transparentDark.0}",
+              "$description": "Use for transparent action components such as Icon Button.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.0}",
+                "$description": "Use for transparent action components such as Icon Button in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.0}",
+                "$description": "Use for transparent action components such as Icon Button in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.0}",
+                "$description": "Use for transparent action components such as Icon Button in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.transparentDark.0}",
+                "$description": "Use for transparent action components such as Icon Button in disabled state."
+              }
+            }
+          }
+        },
+        "link": {
+          "text": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.160}",
+            "$description": "Use for components with anchor styles  such as Link, Link Button and Breadcrumb.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.180}",
+              "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in pressed state."
+            },
+            "accent": {
+              "white": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for components with anchor styles  such as Link, Link Button and Breadcrumb.",
+                "hovered": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in hovered state."
+                },
+                "focused": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.white}",
+                  "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in focused state."
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.20}",
+                  "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in pressed state."
+                },
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.50}",
+                  "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in disabled state."
+                }
+              }
+            },
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.130}",
+              "$description": "Use for components with anchor styles  such as Link, Link Button and Breadcrumb.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.130}",
+                "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.130}",
+                "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.150}",
+                "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in disabled state."
+              }
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.50}",
+              "$description": "Use for components with anchor styles such as Link, Link Button and Breadcrumb in disabled state."
+            }
+          }
+        },
+        "field": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for a form field in the default state.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for a form field in the hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for a form field in the focused state."
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for a form field in the disabled state."
+            },
+            "negative": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for a form field in the error state.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for a form field in the error and hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for a form field in the error and focused state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for a form field in the error and disabled state."
+              }
+            }
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.80}",
+            "$description": "Use for a form field in the default state.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for a form field in the hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for a form field in the focused state."
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.50}",
+              "$description": "Use for a form field in the disabled state."
+            },
+            "negative": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.100}",
+              "$description": "Use for a form field in the error state.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.100}",
+                "$description": "Use for a form field in the error and hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.red.100}",
+                "$description": "Use for a form field in the error and focused state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for a form field in the error and disabled state."
+              }
+            }
+          },
+          "text": {
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for the text on a form field in the default state.",
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for the text on a form field in the disabled state."
+              }
+            },
+            "subtle": {
+              "onFill": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.130}",
+                "$description": "Use for the leading icon on a form field in the disabled state.",
+                "disabled": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.gray.50}",
+                  "$description": "Use for the leading icon on a form field in the disabled state."
+                }
+              }
+            }
+          }
+        },
+        "loading": {
+          "subtle": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.20}",
+            "$description": "Use for components displayed while loading main content  such as Skeleton and Spinner."
+          },
+          "subtlest": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.5}",
+            "$description": "Use for components displayed while loading main content  such as Skeleton and Spinner."
+          },
+          "$type": "color",
+          "$value": "{ld.primitive.color.gray.100}",
+          "$description": "Use for components displayed while loading main content  such as Skeleton and Spinner.",
+          "white": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for components displayed while loading main content  such as Skeleton and Spinner."
+          }
+        },
+        "topNav": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.green.100}",
+            "$description": "Use for the background of elements in the top nav.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.transparentDark.60}",
+              "$description": "Use for the background of elements in the top nav in hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.transparentDark.60}",
+              "$description": "Use for the background of elements in the top nav in focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.transparentDark.80}",
+              "$description": "Use for the background of elements in the top nav in pressed state."
+            }
+          },
+          "text": {
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for the text on the background of the top navigation.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for the text on the background of the top navigation in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for the text on the background of the top navigation in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for the text on the background of the top navigation in pressed state."
+              }
+            }
+          },
+          "separator": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.transparentDark.0}",
+            "$description": "Use for the separator under the top navigation."
+          }
+        },
+        "pageNav": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.5}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.5}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.10}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in pressed state."
+            },
+            "activated": {
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.10}",
+                "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in hovered state."
+              },
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.5}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in activated state.",
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.10}",
+                "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.20}",
+                "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in pressed state."
+              }
+            }
+          },
+          "indicator": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.transparentDark.0}",
+            "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.20}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.20}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.30}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in pressed state."
+            },
+            "activated": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.100}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in activated state.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.100}",
+                "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in activated and hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.100}",
+                "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in activated and focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.100}",
+                "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation in activated and pressed state."
+              }
+            }
+          },
+          "text": {
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation.",
+              "activated": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for components used in site navigation  such as Side Navigation and Tab Navigation."
+              }
+            }
+          }
+        },
+        "bottomNav": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for the background of the bottom navigation.",
+            "activated": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for the background of elements within the bottom navigation in activated state."
+            }
+          },
+          "text": {
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.100}",
+              "$description": "Use for the text on the background of the bottom navigation.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.100}",
+                "$description": "Use for text on bottom navigation in hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.100}",
+                "$description": "Use for text on bottom navigation in focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.100}",
+                "$description": "Use for text on bottom navigation in pressed state."
+              },
+              "activated": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.100}",
+                "$description": "Use for text on bottom navigation in activated state.",
+                "hovered": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.green.100}",
+                  "$description": "Use for text on bottom navigation in activated and hovered state."
+                },
+                "focused": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.green.100}",
+                  "$description": "Use for text on bottom navigation in activated and focused state."
+                },
+                "pressed": {
+                  "$type": "color",
+                  "$value": "{ld.primitive.color.green.100}",
+                  "$description": "Use for text on bottom navigation in activated and pressed state."
+                }
+              }
+            }
+          },
+          "separator": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.20}",
+            "$description": "Use for the bottom navigation."
+          }
+        },
+        "notice": {
+          "fill": {
+            "info": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.blue.100}",
+              "$description": "Use for components that provide informative global communication  such as an info Banner."
+            },
+            "positive": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.100}",
+              "$description": "Use for components that communicate a positive message globally  such as a success Banner."
+            },
+            "warning": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.spark.100}",
+              "$description": "Use for components that communicate global warnings  such as a warning Banner."
+            },
+            "negative": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.100}",
+              "$description": "Use for components that communicate a negative message globally  such as an error Banner."
+            }
+          },
+          "text": {
+            "onFill": {
+              "info": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for components that provide informative global communication  such as an info Banner."
+              },
+              "positive": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for components that communicate a positive message globally  such as a success Banner."
+              },
+              "warning": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for components that communicate global warnings  such as a warning Banner."
+              },
+              "negative": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.white}",
+                "$description": "Use for components that communicate a negative message globally  such as an error Banner."
+              }
+            }
+          }
+        },
+        "input": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for an input  such as Checkbox, Radio or Chip.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.10}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.10}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.20}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in pressed state."
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in disabled state."
+            },
+            "activated": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in activated state.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.150}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.150}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.140}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and disabled state."
+              }
+            }
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.160}",
+            "$description": "Use for an input such as Checkbox, Radio or Chip.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip pressed state."
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.50}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in disabled state."
+            },
+            "activated": {
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.160}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in activated and disabled state."
+              },
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip in activated state."
+            }
+          },
+          "text": {
+            "onFill": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip.",
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.50}",
+                "$description": "Use for an input  such as Checkbox, Radio or Chip in disabled state."
+              }
+            }
+          },
+          "indicator": {
+            "activated": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.white}",
+              "$description": "Use for an input  such as Checkbox, Radio or Chip."
+            }
+          }
+        },
+        "rating": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.spark.100}",
+            "$description": "Use for rating star components."
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.spark.120}",
+            "$description": "Use for rating star components."
+          }
+        },
+        "switch": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.100}",
+            "$description": "Use for an element that indicates an on/off state such as Switch.",
+            "hovered": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.130}",
+              "$description": "Use for an element that indicates an on/off state  such as Switch in a hovered state."
+            },
+            "focused": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.130}",
+              "$description": "Use for an element that indicates an on/off state  such as Switch in a focused state."
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.160}",
+              "$description": "Use for an element that indicates an on/off state  such as Switch in a pressed state."
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.20}",
+              "$description": "Use for an element that indicates an on/off state  such as Switch in a disabled state."
+            },
+            "activated": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.100}",
+              "$description": "Use for an element that indicates an on/off state such as Switch in an activated state.",
+              "hovered": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.130}",
+                "$description": "Use for an element that indicates an on/off state  such as Switch in an activated and hovered state."
+              },
+              "focused": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.130}",
+                "$description": "Use for an element that indicates an on/off state  such as Switch in an activated and focused state."
+              },
+              "pressed": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.green.160}",
+                "$description": "Use for an element that indicates an on/off state  such as Switch in an activated and pressed state."
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{ld.primitive.color.gray.20}",
+                "$description": "Use for an element that indicates an on/off state  such as Switch in an activated and disabled state."
+              }
+            }
+          },
+          "indicator": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.white}",
+            "$description": "Use for an element that indicates an on/off state such as Switch.",
+            "disabled": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.50}",
+              "$description": "Use for an element that indicates an on/off state such as Switch."
+            }
+          }
+        },
+        "progress": {
+          "fill": {
+            "$type": "color",
+            "$value": "{ld.primitive.color.gray.80}",
+            "$description": "Use for components that track progress  such as an Progress Indicator and Progress Tracker.",
+            "subtle": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.gray.20}",
+              "$description": "Use for components that track progress  such as an Progress Indicator and Progress Tracker."
+            },
+            "info": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.blue.100}",
+              "$description": "Use for components that track progress  such as an Progress Indicator and Progress Tracker that communicate information."
+            },
+            "positive": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.100}",
+              "$description": "Use for components that track progress  such as an Progress Indicator and Progress Tracker that communicate a favorable outcome."
+            },
+            "warning": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.spark.130}",
+              "$description": "Use for components that track progress  such as an Progress Indicator and Progress Tracker that emphasize caution."
+            },
+            "negative": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.red.100}",
+              "$description": "Use for components that track progress  such as an Progress Indicator and Progress Tracker that indicate danger or error state."
+            }
+          }
+        },
+        "separator": {
+          "$type": "color",
+          "$value": "{ld.primitive.color.gray.20}",
+          "$description": "Use for an element that separates content such as a Divider."
+        },
+        "scrim": {
+          "$type": "color",
+          "$value": "{ld.primitive.color.transparentDark.60}",
+          "$description": "Use for the scrim underlying an overlay."
+        },
+        "chart": {
+          "categorical": {
+            "1": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.blue.130}",
+              "$description": "Use only for the first color in categorical data visualization."
+            },
+            "2": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.pink.70}",
+              "$description": "Use only for the second color in categorical data visualization."
+            },
+            "3": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.spark.120}",
+              "$description": "Use only for the third color in categorical data visualization."
+            },
+            "4": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.cyan.80}",
+              "$description": "Use only for the fourth color in categorical data visualization."
+            },
+            "5": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.orange.130}",
+              "$description": "Use only for the fifth color in categorical data visualization."
+            },
+            "6": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.purple.60}",
+              "$description": "Use only for the sixth color in categorical data visualization."
+            },
+            "7": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.green.90}",
+              "$description": "Use only for the seventh color in categorical data visualization."
+            },
+            "8": {
+              "$type": "color",
+              "$value": "{ld.primitive.color.pink.120}",
+              "$description": "Use only for the eighth color in categorical data visualization."
+            }
+          }
+        }
+      },
+      "font": {
+        "display": {
+          "large": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for display large text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for display large text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for display large text style."
+              }
+            }
+          },
+          "small": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for display small text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for display small text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for display small text style."
+              }
+            }
+          }
+        },
+        "heading": {
+          "large": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for heading large text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for heading large text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for heading large text style."
+              }
+            }
+          },
+          "medium": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for heading medium text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for heading medium text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for heading medium text style."
+              }
+            }
+          },
+          "small": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for heading small text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for heading small text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for heading small text style."
+              }
+            }
+          }
+        },
+        "body": {
+          "large": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for body large text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for body large text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for body large text style."
+              }
+            }
+          },
+          "medium": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for body medium text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for body medium text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for body medium text style."
+              }
+            }
+          },
+          "small": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.sans}",
+              "$description": "Use for body small text style."
+            },
+            "weight": {
+              "default": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.400}",
+                "$description": "Use for body small text style."
+              },
+              "alt": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.font.weight.700}",
+                "$description": "Use for body small text style."
+              }
+            }
+          },
+          "mono": {
+            "large": {
+              "family": {
+                "$type": "string",
+                "$value": "{ld.primitive.font.family.mono}",
+                "$description": "Use for monospace font style."
+              }
+            },
+            "medium": {
+              "family": {
+                "$type": "string",
+                "$value": "{ld.primitive.font.family.mono}",
+                "$description": "Use for monospace font style."
+              }
+            },
+            "small": {
+              "family": {
+                "$type": "string",
+                "$value": "{ld.primitive.font.family.mono}",
+                "$description": "Use for monospace font style."
+              }
+            }
+          }
+        },
+        "caption": {
+          "family": {
+            "$type": "string",
+            "$value": "{ld.primitive.font.family.sans}",
+            "$description": "Use for caption text style."
+          },
+          "weight": {
+            "default": {
+              "$type": "dimension",
+              "$value": "{ld.primitive.font.weight.400}",
+              "$description": "Use for caption text style."
+            },
+            "alt": {
+              "$type": "dimension",
+              "$value": "{ld.primitive.font.weight.700}",
+              "$description": "Use for caption text style."
+            }
+          },
+          "mono": {
+            "family": {
+              "$type": "string",
+              "$value": "{ld.primitive.font.family.mono}",
+              "$description": "Use for monospace font style."
+            }
+          }
+        },
+        "action": {
+          "weight": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.font.weight.700}",
+            "$description": "The intent of applying a specialty token for Button’s weight is to allow it to be themed only for the Button."
+          }
+        }
+      },
+      "scale": {
+        "borderWidth": {
+          "interactive": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.borderWidth.100}",
+            "$description": "Use for border width of interactive components.",
+            "hovered": {
+              "$type": "dimension",
+              "$value": "{ld.primitive.scale.borderWidth.200}",
+              "$description": "Use for border width of interactive components in a hovered state."
+            },
+            "focused": {
+              "$type": "dimension",
+              "$value": "{ld.primitive.scale.borderWidth.200}",
+              "$description": "Use for border width of interactive components in a focused state."
+            },
+            "pressed": {
+              "$type": "dimension",
+              "$value": "{ld.primitive.scale.borderWidth.200}",
+              "$description": "Use for border width of interactive components in a pressed state."
+            },
+            "activated": {
+              "$type": "dimension",
+              "$value": "{ld.primitive.scale.borderWidth.200}",
+              "$description": "Use for border width of interactive components in an activated state.",
+              "hovered": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.scale.borderWidth.200}",
+                "$description": "Use for border width of interactive components in an activated and hovered state."
+              },
+              "focused": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.scale.borderWidth.200}",
+                "$description": "Use for border width of interactive components in an activated and focused state."
+              },
+              "pressed": {
+                "$type": "dimension",
+                "$value": "{ld.primitive.scale.borderWidth.200}",
+                "$description": "Use for border width of interactive components in an activated and pressed state."
+              }
+            }
+          }
+        },
+        "icon": {
+          "small": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.space.200}",
+            "$description": "Use for the small icon size."
+          },
+          "medium": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.space.300}",
+            "$description": "Use for the medium icon size."
+          },
+          "large": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.space.400}",
+            "$description": "Use for the large icon size."
+          }
+        },
+        "pictogram": {
+          "small": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.space.600}",
+            "$description": "Use for the small pictogram size."
+          },
+          "medium": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.space.700}",
+            "$description": "Use for the medium pictogram size."
+          },
+          "large": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.space.800}",
+            "$description": "Use for the large pictogram size."
+          },
+          "xLarge": {
+            "$type": "dimension",
+            "$value": "{ld.primitive.scale.space.900}",
+            "$description": "Use for the extra large pictogram size."
+          }
+        }
+      }
+    },
+    "assetSet": {
+      "$type": "string",
+      "$value": "Walmart Legacy"
+    }
+  }
+}

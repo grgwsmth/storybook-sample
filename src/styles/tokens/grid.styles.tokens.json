@@ -1,0 +1,53 @@
+{
+  "ld": {
+    "primitive": {
+      "breakpoints": {
+        "Sm-Md, 0-899px": {
+          "$type": "grid",
+          "$description": "6 col, 16px gutter grid for sm-md breakpoints",
+          "$value": [
+            {
+              "pattern": "columns",
+              "visible": true,
+              "alignment": "stretch",
+              "color": "#ff00001a",
+              "gutterSize": "16px",
+              "count": 6,
+              "offset": "16px"
+            }
+          ]
+        },
+        "Lg, 900-1199px": {
+          "$type": "grid",
+          "$description": "12 col, 16px gutter grid for large breakpoints",
+          "$value": [
+            {
+              "pattern": "columns",
+              "visible": true,
+              "alignment": "stretch",
+              "color": "#ff00001a",
+              "gutterSize": "16px",
+              "count": 12,
+              "offset": "16px"
+            }
+          ]
+        },
+        "Xl-Max, 1200px +": {
+          "$type": "grid",
+          "$description": "12 col, 24px gutter grid for XL breakpoints and larger",
+          "$value": [
+            {
+              "pattern": "columns",
+              "visible": true,
+              "alignment": "stretch",
+              "color": "#ff00001a",
+              "gutterSize": "24px",
+              "count": 12,
+              "offset": "24px"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

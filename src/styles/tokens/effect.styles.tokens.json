@@ -1,0 +1,68 @@
+{
+  "ld": {
+    "semantic": {
+      "elevation": {
+        "100": {
+          "$type": "shadow",
+          "$description": "The lowest level of elevation used for objects that are just barely elevated above the surface of the page.",
+          "$value": [
+            {
+              "offsetX": "0px",
+              "offsetY": "1px",
+              "blur": "2px",
+              "spread": "1px",
+              "color": "#00000026"
+            },
+            {
+              "offsetX": "0px",
+              "offsetY": "-1px",
+              "blur": "2px",
+              "spread": "0px",
+              "color": "#0000001a"
+            }
+          ]
+        },
+        "200": {
+          "$type": "shadow",
+          "$description": "The middle level of elevation. Used for elements that are elevated above some other elements but not the highest level of elevation",
+          "$value": [
+            {
+              "offsetX": "0px",
+              "offsetY": "3px",
+              "blur": "5px",
+              "spread": "2px",
+              "color": "#00000026"
+            },
+            {
+              "offsetX": "0px",
+              "offsetY": "-1px",
+              "blur": "3px",
+              "spread": "0px",
+              "color": "#0000001a"
+            }
+          ]
+        },
+        "300": {
+          "$type": "shadow",
+          "$description": "The highest level of elevation. Used for elements that should be above all other elements, such as Snackbar, Modal, etc.",
+          "$value": [
+            {
+              "offsetX": "0px",
+              "offsetY": "5px",
+              "blur": "10px",
+              "spread": "3px",
+              "color": "#00000026"
+            },
+            {
+              "offsetX": "0px",
+              "offsetY": "-1px",
+              "blur": "4px",
+              "spread": "0px",
+              "color": "#0000001a"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

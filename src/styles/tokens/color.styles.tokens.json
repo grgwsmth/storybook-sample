@@ -1,0 +1,48 @@
+{
+  "ld": {
+    "[BETA] chart": {
+      "categorical": {
+        "1": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the first color in sequential order.\n\n(Blue-130)",
+          "$value": "{ld.semantic.color.chart.categorical.1}"
+        },
+        "2": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the second color in sequential order.\n\n(Pink-70)",
+          "$value": "{ld.semantic.color.chart.categorical.2}"
+        },
+        "3": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the third color in sequential order.\n\n(Spark-120)",
+          "$value": "{ld.semantic.color.chart.categorical.3}"
+        },
+        "4": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the fourth color in sequential order.",
+          "$value": "{ld.semantic.color.chart.categorical.4}"
+        },
+        "5": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the fifth color in sequential order.\n\n(Orange-130)",
+          "$value": "{ld.semantic.color.chart.categorical.5}"
+        },
+        "6": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the sixth color in sequential order.\n\n(Purple-60)",
+          "$value": "{ld.semantic.color.chart.categorical.6}"
+        },
+        "7": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the seventh color in sequential order.\n\n(Green-90)",
+          "$value": "{ld.semantic.color.chart.categorical.7}"
+        },
+        "8": {
+          "$type": "color",
+          "$description": "THIS COLOR IS IN BETA. It may change before it is finalized\n\nCategorical colors are those that represent a distinct item, usually with a specific label. Store, DC, state, etc.\n\nThis color should be the eight color in sequential order.\n\n(Pink-120)",
+          "$value": "{ld.semantic.color.chart.categorical.8}"
+        }
+      }
+    }
+  }
+}

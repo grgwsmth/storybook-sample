@@ -1,0 +1,51 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "LD Scale": {
+      "modes": {
+        "0-899px": [
+          "LD Scale.0-899px.tokens.json"
+        ],
+        "900px+": [
+          "LD Scale.900px+.tokens.json"
+        ],
+        "0-899px (Mega)": [
+          "LD Scale.0-899px (Mega).tokens.json"
+        ],
+        "900px+ (Mega)": [
+          "LD Scale.900px+ (Mega).tokens.json"
+        ]
+      }
+    },
+    "LD Design Tokens": {
+      "modes": {
+        "Walmart": [
+          "LD Design Tokens.Walmart.tokens.json"
+        ],
+        "Sam's Club": [
+          "LD Design Tokens.Sam's Club.tokens.json"
+        ],
+        "Walmart Legacy": [
+          "LD Design Tokens.Walmart Legacy.tokens.json"
+        ],
+        "Bodega": [
+          "LD Design Tokens.Bodega.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ],
+    "effect": [
+      "effect.styles.tokens.json"
+    ],
+    "color": [
+      "color.styles.tokens.json"
+    ],
+    "grid": [
+      "grid.styles.tokens.json"
+    ]
+  }
+}
