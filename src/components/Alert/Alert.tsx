@@ -5,6 +5,7 @@ import positiveUpSrc from "./assets/alert-positiveUp.svg";
 import negativeUpSrc from "./assets/alert-negativeUp.svg";
 import positiveDownSrc from "./assets/alert-positiveDown.svg";
 import negativeDownSrc from "./assets/alert-negativeDown.svg";
+import { colors as legacyColors } from "../../styles/design-tokens";
 
 export type AlertVariant =
   | "neutral"
@@ -35,9 +36,25 @@ export const Alert: React.FC<AlertProps> = ({
   const src = ICON_MAP[variant];
   const ariaLive = variant === "neutral" ? "polite" : "assertive";
 
+  // Map variants to token-driven colors (use legacy token exports as canonical source)
+  const isPositive = variant.startsWith("positive");
+  const isNegative = variant.startsWith("negative");
+
+  const backgroundColor =
+    variant === "neutral" ? legacyColors.neutral[100] : legacyColors.neutral[50];
+
+  const iconColor = isPositive ? legacyColors.success : isNegative ? legacyColors.error : legacyColors.neutral[700];
+  const textColor = legacyColors.neutral[900] || legacyColors.neutral[800] || "#111";
+  const borderColor = "transparent";
+
   return (
-    <div className={`${styles.alert} ${styles[variant] || ""}`} role={role || "status"} aria-live={ariaLive}>
-      <img src={src} className={styles.icon} alt="" aria-hidden />
+    <div
+      className={styles.alert}
+      role={role || "status"}
+      aria-live={ariaLive}
+      style={{ backgroundColor, color: textColor, borderColor }}
+    >
+      <img src={src} className={styles.icon} alt="" aria-hidden style={{ color: iconColor }} />
       <div className={styles.content}>{children}</div>
     </div>
   );
