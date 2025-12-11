@@ -1,4 +1,4 @@
-# React Thing
+# Storybook Sample
 
 A React component library built with Vite, TypeScript, and Storybook. This project provides a foundation for building and documenting reusable React components with a design system.
 
