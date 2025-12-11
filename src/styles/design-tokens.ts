@@ -1,5 +1,15 @@
-// Design Tokens - Extracted from Figma
-// These should match your Figma design system
+// Design Tokens - PLACEHOLDER/EXAMPLE TOKENS
+// 
+// NOTE: These are example/placeholder tokens, not your actual design tokens.
+// Your actual design tokens are loaded from JSON files in src/styles/tokens/
+// and are accessible via the token loader (see src/styles/tokens/index.ts).
+//
+// These placeholder tokens are kept for backward compatibility with existing
+// components (like Button.tsx). Consider migrating components to use the
+// JSON tokens from src/styles/tokens/ instead.
+//
+// To use your actual tokens, import from:
+//   import { ldTokens, getColor, getTypography } from '../../styles/tokens';
 
 export const colors = {
 	primary: "#3B82F6",
