@@ -15,6 +15,21 @@ export interface AlertProps {
 	 */
 	children: React.ReactNode;
 	/**
+	 * Whether the alert text should wrap to multiple lines
+	 * When true, message and action are stacked vertically
+	 * When false, message and action are on the same line
+	 * @default false
+	 */
+	wrapAlert?: boolean;
+	/**
+	 * Action button text. If provided, an action button will be displayed
+	 */
+	action?: string;
+	/**
+	 * Callback when the action button is clicked
+	 */
+	onActionClick?: () => void;
+	/**
 	 * ARIA role for the alert
 	 * @default 'status'
 	 */
@@ -28,7 +43,14 @@ export interface AlertProps {
  * They are system-created and non-dismissible. Use an Alert to relay errors,
  * reinforce success, warn about a potential issue, or communicate details.
  */
-export const Alert: React.FC<AlertProps> = ({ variant = "info", children, role = "status" }) => {
+export const Alert: React.FC<AlertProps> = ({
+	variant = "info",
+	children,
+	wrapAlert = false,
+	action,
+	onActionClick,
+	role = "status",
+}) => {
 	// Get design tokens for colors based on variant
 	const getBorderColor = (): string => {
 		switch (variant) {
@@ -163,15 +185,68 @@ export const Alert: React.FC<AlertProps> = ({ variant = "info", children, role =
 		color: borderColor, // Icon uses border color
 	};
 
-	const contentStyle: React.CSSProperties = {
+	// Message + actions container style
+	const messageActionsStyle: React.CSSProperties = {
 		flex: "1 1 auto",
+		display: "flex",
+		flexDirection: wrapAlert ? "column" : "row",
+		gap: wrapAlert ? "4px" : "8px", // itemSpacing: 4px when vertical, 8px when horizontal
+		alignItems: wrapAlert ? "flex-start" : "center",
+	};
+
+	const messageStyle: React.CSSProperties = {
+		flex: wrapAlert ? "0 0 auto" : "1 1 auto",
+	};
+
+	// Action button uses the underline variant of body.small text style
+	const actionTextStyle = getTypography("ld.semantic.textStyle.body.small.underline");
+	const actionCSS = actionTextStyle
+		? {
+				...typographyToCSS(actionTextStyle),
+				fontFamily: `${fontFamilyToken}, system-ui, sans-serif`,
+				fontSize: "14px",
+				lineHeight: "20px",
+		  }
+		: {
+				...textCSS,
+				textDecoration: "underline",
+		  };
+
+	const actionStyle: React.CSSProperties = {
+		flex: "0 0 auto",
+		cursor: action ? "pointer" : "default",
+		color: textColor,
+		background: "none",
+		border: "none",
+		padding: 0,
+		margin: 0,
+		...actionCSS,
 	};
 
 	return (
 		<div style={containerStyle} role={role} aria-live={ariaLive} aria-atomic="true">
 			<div style={leftBorderStyle} aria-hidden="true" />
 			<img src={placeholderIcon} alt="" aria-hidden="true" style={iconStyle} />
-			<div style={contentStyle}>{children}</div>
+			<div style={messageActionsStyle}>
+				<div style={messageStyle}>{children}</div>
+				{action && (
+					<span
+						onClick={onActionClick}
+						onKeyDown={(e) => {
+							if (e.key === "Enter" || e.key === " ") {
+								e.preventDefault();
+								onActionClick?.();
+							}
+						}}
+						style={actionStyle}
+						role="button"
+						tabIndex={0}
+						aria-label={action}
+					>
+						{action}
+					</span>
+				)}
+			</div>
 		</div>
 	);
 };
