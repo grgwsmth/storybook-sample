@@ -74,7 +74,7 @@ export const Alert: React.FC<AlertProps> = ({ variant = "info", children, role =
 	// Using the design token: ld.semantic.textStyle.body.small.default
 	const textStyle = getTypography("ld.semantic.textStyle.body.small.default");
 	const textCSS = textStyle
-		? typographyToCSS(textStyle)
+		? { ...typographyToCSS(textStyle), fontSize: "14px", lineHeight: "20px" } // Override with exact Figma values
 		: {
 				fontFamily: "Everyday Sans UI, system-ui, sans-serif",
 				fontSize: "14px",
@@ -91,14 +91,30 @@ export const Alert: React.FC<AlertProps> = ({ variant = "info", children, role =
 
 	const containerStyle: React.CSSProperties = {
 		display: "flex",
-		alignItems: "flex-start",
+		alignItems: "center", // Vertically center icon and content
 		gap: "8px", // itemSpacing from Figma
 		padding: "8px 12px", // paddingTop/Bottom: 8px, paddingLeft/Right: 12px from Figma
 		borderRadius: "4px", // cornerRadius from Figma
 		border: `1px solid ${borderColor}`,
+		borderLeft: "none", // Left border is handled by the Tab element
 		backgroundColor,
 		color: textColor,
+		position: "relative", // For positioning the left border accent
 		...textCSS,
+	};
+
+	// Left border accent (Tab element from Figma) - 4px wide with rounded left corners
+	const leftBorderStyle: React.CSSProperties = {
+		position: "absolute",
+		left: 0,
+		top: 0,
+		bottom: 0,
+		width: "4px",
+		backgroundColor: borderColor,
+		borderTopLeftRadius: "4px",
+		borderBottomLeftRadius: "4px",
+		borderTopRightRadius: 0,
+		borderBottomRightRadius: 0,
 	};
 
 	const iconStyle: React.CSSProperties = {
@@ -114,6 +130,7 @@ export const Alert: React.FC<AlertProps> = ({ variant = "info", children, role =
 
 	return (
 		<div style={containerStyle} role={role} aria-live={ariaLive} aria-atomic="true">
+			<div style={leftBorderStyle} aria-hidden="true" />
 			<img src={placeholderIcon} alt="" aria-hidden="true" style={iconStyle} />
 			<div style={contentStyle}>{children}</div>
 		</div>
