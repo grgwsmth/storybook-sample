@@ -1,63 +1,123 @@
 import React from "react";
-import styles from "./Alert.module.css";
-import neutralSrc from "./assets/alert-neutral.svg";
-import positiveUpSrc from "./assets/alert-positiveUp.svg";
-import negativeUpSrc from "./assets/alert-negativeUp.svg";
-import positiveDownSrc from "./assets/alert-positiveDown.svg";
-import negativeDownSrc from "./assets/alert-negativeDown.svg";
-import { colors as legacyColors } from "../../styles/design-tokens";
+import { getColor, getTypography, typographyToCSS } from "../../styles/tokens";
+import placeholderIcon from "../../assets/icons/placeholder.svg";
 
-export type AlertVariant =
-  | "neutral"
-  | "positiveUp"
-  | "negativeUp"
-  | "positiveDown"
-  | "negativeDown";
+export type AlertVariant = "info" | "error" | "warning" | "success";
 
 export interface AlertProps {
-  variant?: AlertVariant;
-  children: React.ReactNode;
-  role?: string;
+	/**
+	 * The variant of the alert
+	 * @default 'info'
+	 */
+	variant?: AlertVariant;
+	/**
+	 * The content to display in the alert
+	 */
+	children: React.ReactNode;
+	/**
+	 * ARIA role for the alert
+	 * @default 'status'
+	 */
+	role?: string;
 }
 
-const ICON_MAP: Record<AlertVariant, string> = {
-  neutral: neutralSrc,
-  positiveUp: positiveUpSrc,
-  negativeUp: negativeUpSrc,
-  positiveDown: positiveDownSrc,
-  negativeDown: negativeDownSrc,
-};
+/**
+ * Alert component based on [LD 3.5] Alert from Figma
+ *
+ * Alerts surface information within a flow that is important to the user's journey.
+ * They are system-created and non-dismissible. Use an Alert to relay errors,
+ * reinforce success, warn about a potential issue, or communicate details.
+ */
+export const Alert: React.FC<AlertProps> = ({ variant = "info", children, role = "status" }) => {
+	// Get design tokens for colors based on variant
+	const getBorderColor = (): string => {
+		switch (variant) {
+			case "info":
+				return getColor("ld.semantic.color.border.info") || "#0053e2";
+			case "success":
+				return getColor("ld.semantic.color.border.positive") || "#10b981";
+			case "error":
+				return getColor("ld.semantic.color.border.negative") || "#ef4444";
+			case "warning":
+				return getColor("ld.semantic.color.border.warning") || "#f59e0b";
+			default:
+				return getColor("ld.semantic.color.border.info") || "#0053e2";
+		}
+	};
 
-export const Alert: React.FC<AlertProps> = ({
-  variant = "neutral",
-  children,
-  role,
-}) => {
-  const src = ICON_MAP[variant];
-  const ariaLive = variant === "neutral" ? "polite" : "assertive";
+	const getBackgroundColor = (): string => {
+		switch (variant) {
+			case "info":
+				return getColor("ld.primitive.color.blue.5") || "#f0f5ff";
+			case "success":
+				return getColor("ld.primitive.color.green.5") || "#f0fdf4";
+			case "error":
+				return getColor("ld.primitive.color.red.5") || "#fef2f2";
+			case "warning":
+				return getColor("ld.primitive.color.spark.5") || "#fffbeb";
+			default:
+				return getColor("ld.primitive.color.blue.5") || "#f0f5ff";
+		}
+	};
 
-  // Map variants to token-driven colors (use legacy token exports as canonical source)
-  const isPositive = variant.startsWith("positive");
-  const isNegative = variant.startsWith("negative");
+	const getTextColor = (): string => {
+		// Use semantic text color, fallback to dark gray
+		return (
+			getColor("ld.semantic.color.text.primary") ||
+			getColor("ld.primitive.color.gray.900") ||
+			"#111827"
+		);
+	};
 
-  const backgroundColor =
-    variant === "neutral" ? legacyColors.neutral[100] : legacyColors.neutral[50];
+	// Get typography token for body text (14px, 400 weight, 20px line height)
+	// Based on Figma specs: Everyday Sans UI, 14px, 400 weight, 20px line height
+	// Using the design token: ld.semantic.textStyle.body.small.default
+	const textStyle = getTypography("ld.semantic.textStyle.body.small.default");
+	const textCSS = textStyle
+		? typographyToCSS(textStyle)
+		: {
+				fontFamily: "Everyday Sans UI, system-ui, sans-serif",
+				fontSize: "14px",
+				fontWeight: 400,
+				lineHeight: "20px",
+		  };
 
-  const iconColor = isPositive ? legacyColors.success : isNegative ? legacyColors.error : legacyColors.neutral[700];
-  const textColor = legacyColors.neutral[900] || legacyColors.neutral[800] || "#111";
-  const borderColor = "transparent";
+	// Determine aria-live based on variant
+	const ariaLive = variant === "info" ? "polite" : "assertive";
 
-  return (
-    <div
-      className={styles.alert}
-      role={role || "status"}
-      aria-live={ariaLive}
-      style={{ backgroundColor, color: textColor, borderColor }}
-    >
-      <img src={src} className={styles.icon} alt="" aria-hidden style={{ color: iconColor }} />
-      <div className={styles.content}>{children}</div>
-    </div>
-  );
+	const borderColor = getBorderColor();
+	const backgroundColor = getBackgroundColor();
+	const textColor = getTextColor();
+
+	const containerStyle: React.CSSProperties = {
+		display: "flex",
+		alignItems: "flex-start",
+		gap: "8px", // itemSpacing from Figma
+		padding: "8px 12px", // paddingTop/Bottom: 8px, paddingLeft/Right: 12px from Figma
+		borderRadius: "4px", // cornerRadius from Figma
+		border: `1px solid ${borderColor}`,
+		backgroundColor,
+		color: textColor,
+		...textCSS,
+	};
+
+	const iconStyle: React.CSSProperties = {
+		width: "16px", // Icon size from Figma
+		height: "16px",
+		flexShrink: 0,
+		color: borderColor, // Icon uses border color
+	};
+
+	const contentStyle: React.CSSProperties = {
+		flex: "1 1 auto",
+	};
+
+	return (
+		<div style={containerStyle} role={role} aria-live={ariaLive} aria-atomic="true">
+			<img src={placeholderIcon} alt="" aria-hidden="true" style={iconStyle} />
+			<div style={contentStyle}>{children}</div>
+		</div>
+	);
 };
 
 export default Alert;
