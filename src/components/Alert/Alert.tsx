@@ -1,5 +1,5 @@
 import React from "react";
-import { getColor, getTypography, typographyToCSS } from "../../styles/tokens";
+import { getColor, getTypography, typographyToCSS, getToken } from "../../styles/tokens";
 import placeholderIcon from "../../assets/icons/placeholder.svg";
 
 export type AlertVariant = "info" | "error" | "warning" | "success";
@@ -61,22 +61,61 @@ export const Alert: React.FC<AlertProps> = ({ variant = "info", children, role =
 	};
 
 	const getTextColor = (): string => {
-		// Use semantic text color, fallback to dark gray
-		return (
-			getColor("ld.semantic.color.text.primary") ||
-			getColor("ld.primitive.color.gray.900") ||
-			"#111827"
-		);
+		// Use variant-specific text colors from Figma specs
+		switch (variant) {
+			case "info":
+				return (
+					getColor("ld.semantic.color.text.info.onFill.subtle") ||
+					getColor("ld.primitive.color.blue.130") ||
+					"#002e99"
+				);
+			case "success":
+				return (
+					getColor("ld.semantic.color.text.positive.onFill.subtle") ||
+					getColor("ld.primitive.color.green.130") ||
+					"#1d5f02"
+				);
+			case "error":
+				return (
+					getColor("ld.semantic.color.text.negative.onFill.subtle") ||
+					getColor("ld.primitive.color.red.130") ||
+					"#a20c00"
+				);
+			case "warning":
+				return (
+					getColor("ld.semantic.color.text.warning.onFill.subtle") ||
+					getColor("ld.primitive.color.spark.160") ||
+					"#662b0d"
+				);
+			default:
+				return (
+					getColor("ld.semantic.color.text.info.onFill.subtle") ||
+					getColor("ld.primitive.color.blue.130") ||
+					"#002e99"
+				);
+		}
 	};
 
 	// Get typography token for body text (14px, 400 weight, 20px line height)
 	// Based on Figma specs: Everyday Sans UI, 14px, 400 weight, 20px line height
 	// Using the design token: ld.semantic.textStyle.body.small.default
 	const textStyle = getTypography("ld.semantic.textStyle.body.small.default");
+
+	// Get font family from token - try multiple token paths
+	const fontFamilyToken =
+		getToken("ld.primitive.font.family.sans") ||
+		getToken("ld.semantic.font.body.small.family") ||
+		"Everyday Sans UI";
+
 	const textCSS = textStyle
-		? { ...typographyToCSS(textStyle), fontSize: "14px", lineHeight: "20px" } // Override with exact Figma values
+		? {
+				...typographyToCSS(textStyle),
+				fontFamily: `${fontFamilyToken}, system-ui, sans-serif`,
+				fontSize: "14px", // Override with exact Figma value
+				lineHeight: "20px", // Override with exact Figma value
+		  }
 		: {
-				fontFamily: "Everyday Sans UI, system-ui, sans-serif",
+				fontFamily: `${fontFamilyToken}, system-ui, sans-serif`,
 				fontSize: "14px",
 				fontWeight: 400,
 				lineHeight: "20px",
