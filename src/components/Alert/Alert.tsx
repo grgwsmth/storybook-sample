@@ -1,6 +1,6 @@
 import React from "react";
 import { getColor, getTypography, typographyToCSS, getToken } from "../../styles/tokens";
-import placeholderIcon from "../../assets/icons/placeholder.svg";
+import checkCircleIcon from "../../assets/icons/CheckCircle.svg";
 
 export type AlertVariant = "info" | "error" | "warning" | "success";
 
@@ -226,7 +226,7 @@ export const Alert: React.FC<AlertProps> = ({
 	return (
 		<div style={containerStyle} role={role} aria-live={ariaLive} aria-atomic="true">
 			<div style={leftBorderStyle} aria-hidden="true" />
-			<img src={placeholderIcon} alt="" aria-hidden="true" style={iconStyle} />
+			<img src={checkCircleIcon} alt="" aria-hidden="true" style={iconStyle} />
 			<div style={messageActionsStyle}>
 				<div style={messageStyle}>{children}</div>
 				{action && (
@@ -252,4 +252,5 @@ export const Alert: React.FC<AlertProps> = ({
 };
 
 export default Alert;
+
 
