@@ -123,7 +123,3 @@ export const AllVariants: Story = {
 		</div>
 	),
 };
-
-
-
-
