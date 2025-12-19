@@ -27,3 +27,7 @@ storybook-static
 
 # Hidden
 .env
+
+# Large Figma export files
+figma_exports/alert-matches.txt
+figma_exports/file-full.json
