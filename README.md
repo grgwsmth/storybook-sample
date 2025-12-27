@@ -1,6 +1,8 @@
 # Storybook Sample
 
-A React component library built with Vite, TypeScript, and Storybook. This project provides a foundation for building and documenting reusable React components with a design system.
+This is a POC to practice shipping React components in Storybook (with the help of Cursor) as an alternative to creating visual-only specs in Figma for engineers.
+
+Built with Vite, TypeScript, and Storybook. All generic project instructions follow:
 
 ## Getting Started
 
